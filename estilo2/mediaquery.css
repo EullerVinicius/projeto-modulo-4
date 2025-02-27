@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header{
+        width: 100vw;
+       height: 400px;
+      
+        
+    }
+    menu{
+
+    }
+    ul >li{
+        font-size: 1.3em;
+        padding: 10px;
+        }
+    main{
+         
+            width: 60vw;
+            margin: auto;
+         }
+    }
+    @media screen and (min-width: 992px) {
+        header{
+            background: url(../imagens/pexels-markusspiske-114296\ \(1\)\ grande.jpg) no-repeat;
+            background-size: cover;
+            width: 100vw;
+           height: 400px;
+
+    }
+    main{
+         
+        width: 60vw;
+        margin: auto;
+     }
+     }
