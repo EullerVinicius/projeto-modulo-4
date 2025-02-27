@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'one slice';
+    src: url("fontes/One Slice.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body , html{
+    background-color: #6c9139a2;
+    width: 100vw;
+    height: 100vh;
+    }
+
+
+header{
+    display: block;
+    width: 490px;
+    height: 200px;
+    background-color: black;
+    background: url(../imagens/pexels-markusspiske-114296.jpg) no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin: 5pxpx;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+main{
+    display: block;
+    margin: auto;
+    width: 470px;
+    background-color: white;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+
+}
+main >h1{
+ font-family:monospace;
+    background-color: #6c9139a2;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+main > p{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
