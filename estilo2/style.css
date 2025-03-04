@@ -20,15 +20,16 @@ body , html{
     
     header > h1{
         font-family: cursive;
-        background-color: #6c9139a2;
+       
         width: 200px;
         color: white;
         text-shadow: 2px 2px 5px rgba(8, 8, 8, 0.623);
+        flex: auto;
     }
 
 
 header{
-    display: block;
+    display: flex;
     width: 90%;
     height: 200px;
     background-color: black;
@@ -42,7 +43,6 @@ header{
 }
 
 main{
-    display: block;
     margin: auto;
     width: 90%;
     background-color: white;
@@ -54,12 +54,13 @@ main{
 }
 main >h1{
  font-family:monospace;
-    background-color: #6c9139a2;
+ background-color: #6c9139a2;
     color: black;
     text-align: center;
     padding: 10px;
     text-shadow: 2px 2px 0px rgba(252, 252, 252, 0.418);
     font-size: 2em;
+  
 }
 main > p{
     font-family: 'Times New Roman', Times, serif;
@@ -68,23 +69,32 @@ main > p{
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377) ;
     margin-bottom: 20px;
     text-align: justify;
+  
 }
 menu > ul{
  
     list-style-type: none;
    
+   
     
     }
     menu{
+        display: flex;
         text-align: right;
-        transform: translateY(-25px);
+        
+       
+       
+        
+     
+
+        
      
     }
     ul >li{
         color: white;
         background-color: #6c9139a2;
-        width: 40px;
-        display: inline;
+     flex: auto;
+   
         font-size: 1em;
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377) ;
         padding: 5px;
@@ -93,7 +103,7 @@ menu > ul{
         
     }
     menu > ul > li > a{
-     text-align: right;
+        
         text-decoration: none;
         color: white;
         }
