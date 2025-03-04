@@ -29,7 +29,7 @@ body , html{
 
 header{
     display: block;
-    width: 90vw;
+    width: 90%;
     height: 200px;
     background-color: black;
     background: url(../imagens/pexels-markusspiske-114296.jpg) no-repeat;
@@ -44,7 +44,7 @@ header{
 main{
     display: block;
     margin: auto;
-    width: 90vw;
+    width: 90%;
     background-color: white;
     padding: 7px;
     margin: 5px;
