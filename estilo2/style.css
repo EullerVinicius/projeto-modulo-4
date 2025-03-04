@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
 }
-@media screen { (max-width: 600px);
+@media (max-width: 768px) { 
         
 body , html{
     background-color: #6c9139a2;
@@ -83,7 +83,7 @@ menu > ul{
     ul >li{
         color: white;
         background-color: #6c9139a2;
-        width: 80px;
+        width: 40px;
         display: inline;
         font-size: 1em;
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377) ;
