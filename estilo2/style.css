@@ -9,11 +9,15 @@
     margin: 0px;
     padding: 0px;
 }
+@media screen { (max-width: 600px);
+        
 body , html{
     background-color: #6c9139a2;
     width: 100vw;
     height: 100vh;
     }
+   
+    
     header > h1{
         font-family: cursive;
         background-color: #6c9139a2;
@@ -25,7 +29,7 @@ body , html{
 
 header{
     display: block;
-    width: 450px;
+    width: 90vw;
     height: 200px;
     background-color: black;
     background: url(../imagens/pexels-markusspiske-114296.jpg) no-repeat;
@@ -40,7 +44,7 @@ header{
 main{
     display: block;
     margin: auto;
-    width: 450px;
+    width: 90vw;
     background-color: white;
     padding: 7px;
     margin: 5px;
@@ -96,4 +100,5 @@ menu > ul{
         a:hover{
             background-color: white;
             color: black;
+        }
         }
