@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
 }
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
         
 body , html{
     background-color: #6c9139a2;
@@ -30,7 +30,7 @@ body , html{
 
 header{
     display: flex;
-    width: 90%;
+    width: 95%;
     height: 200px;
     background-color: black;
     background: url(../imagens/pexels-markusspiske-114296.jpg) no-repeat;
@@ -82,7 +82,7 @@ menu > ul{
     
     }
     menu{
-        display: flex;
+     text-align: right;
         
         
        
@@ -96,8 +96,8 @@ menu > ul{
     ul >li{
         color: white;
         background-color: #6c9139a2;
-     flex: auto;
-   
+         flex: auto;
+        display: inline;
         font-size: 1em;
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377) ;
         padding: 5px;
@@ -106,11 +106,11 @@ menu > ul{
         
     }
     menu > ul > li > a{
-        
         text-decoration: none;
         color: white;
+       
         }
-        a:hover{
+        menu > ul > li > a:hover{
             background-color: white;
             color: black;
         }
