@@ -89,6 +89,9 @@ main > p{
     
         border-radius: 10px;
         display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
         font-size: 1em;
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.377) ;
         padding: 5px;
